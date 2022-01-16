@@ -21,12 +21,20 @@
     "url": "https://github.com/neverendingqs/netlify-express/issues"
   },
   "homepage": "https://github.com/neverendingqs/netlify-express#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "0.0.2",
+    "@solana/spl-token": "0.1.8",
+    "@solana/web3.js": "^1.30.2",
+    "lodash": "4.17.21",
+    "p-throttle": "^5.0.0"
+  },
   "devDependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
     "nodemon": "^1.19.2",
-    "serverless-http": "^2.3.0"
+    "serverless-http": "^2.3.0",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.5.4"
   }
 }
